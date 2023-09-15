@@ -36,6 +36,10 @@ body {
     padding: 0.4rem;
 }
 
+.one .home {
+    margin: 10px;
+}
+
 section {
     height: 100vh;
     display: flex;
