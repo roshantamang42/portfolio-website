@@ -36,19 +36,27 @@ body {
     padding: 0.4rem;
 }
 
-.one .home {
-    margin: 10px;
-}
-
-section {
+/* section {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+} */
 
+section {
+    height: 100vh;
 }
 
-.one .home h1 {
+.one{
+    display: flex;
+    justify-content: center;
+}
+
+.one .home {
+    margin: 20px;
+}
+
+.home h1 {
     display: inline-block;
     position: relative;
     color: black;
@@ -56,6 +64,28 @@ section {
 }
 
 
+.card-container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    display: flex;
+}
+
+.card{
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.front{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Flip animation*/
+/* 
 .card-container {
     width: 300px;
     height: 300px;
@@ -76,14 +106,14 @@ section {
         transform: rotateY(180deg);
     }
 
-}
+} 
 
 .front,
 .back {
     height: 100%;
     width: 100%;
-    /* border-radius: 2rem;
-    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25); */
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
     position: absolute;
     backface-visibility: hidden;
 }
@@ -97,6 +127,7 @@ section {
     align-items: center;
     gap: 5rem;
 }
+*/
 
 .one .home p {
     position: relative;
@@ -104,9 +135,55 @@ section {
     font-size: 3vh;
 }
 
-
 .two {
     background: #fff;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+    opacity: 0.76;
+}
+
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills-card{
+    margin: .5rem;
+    background: #fff;
+    display: flex;
+    height: fit-content;
+    
+}
+
+.skills-card-individual{
+    height: fit-content;
+    width: fit-content;
+}
+
+.skills-img{
+    margin-top: .4rem;
+    margin-left: .8rem;
+    margin-right: .8rem;
+    height: 4rem;
+    width: 4.8rem;
+    border-radius: 50%;
+}
+
+.skills-name{
+    text-align: center;
 }
 
 .four {
@@ -127,7 +204,7 @@ section {
         align-items: center;
     }
 
-    .card {
+    /* .card {
         align-items: center;
         justify-content: center;
     }
@@ -137,5 +214,5 @@ section {
         width: 350px;
         height: 350px;
 
-    }
+    } */
 }
