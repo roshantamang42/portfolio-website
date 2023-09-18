@@ -157,6 +157,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: .5rem;
 
 }
 
@@ -164,17 +165,24 @@ section {
     margin: .5rem;
     background: #fff;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
     height: fit-content;
-    
+    border-radius: 20px;
+    padding: .5rem;
 }
 
 .skills-card-individual{
+    position: relative;
     height: fit-content;
     width: fit-content;
 }
 
 .skills-img{
-    margin-top: .4rem;
+    margin-top: .8rem;
     margin-left: .8rem;
     margin-right: .8rem;
     height: 4rem;
