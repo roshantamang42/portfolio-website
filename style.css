@@ -9,6 +9,7 @@
 
 body {
     background: #707580;
+    overflow: hidden;
 }
 
 
@@ -21,17 +22,24 @@ header{
     justify-content: center;
     align-items: center;
     position: fixed;
-    margin-left: 25% ;
-    margin-right: 25%;
+    width: fit-content;
+    height: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 header:hover{
-    transform: scale(1.2);
+    /* transform: scale(1.1); */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav-link{
-    font-size: medium;
-    margin: .7rem;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    padding: .4rem;
+    margin: .2rem;
 }
 
 .nav-link:hover{
