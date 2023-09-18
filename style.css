@@ -11,6 +11,37 @@ body {
     background: #707580;
 }
 
+
+header{
+    margin: .4rem;
+    padding: .2rem;
+    background: #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-left: 25% ;
+    margin-right: 25%;
+}
+
+header:hover{
+    transform: scale(1.2);
+}
+
+.nav-link{
+    font-size: medium;
+    margin: .7rem;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    background: gray;
+    border-radius: 1rem;
+    padding: .4rem;
+}
+
+/* 
 .nav-bar {
     position: relative;
     background: #fff;
@@ -34,7 +65,7 @@ body {
     background: rgb(142, 142, 142);
     border-radius: 1rem;
     padding: 0.4rem;
-}
+} */
 
 /* section {
     height: 100vh;
